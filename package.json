@@ -2,10 +2,9 @@
     "name": "practicum-module_1",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
-        "build": "parcel src/pages/index.hbs --no-cache",
-        "start": "parcel build src/pages/index.hbs --no-cache && node server.js --no-cache"
+        "build": "parcel build src/pages/index.hbs --no-cache",
+        "start": "npm run build && node server.js --no-cache"
     },
     "repository": {
         "type": "git",
