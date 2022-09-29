@@ -1,0 +1,18 @@
+.link {
+    color: var(--color-blue);
+    text-decoration: none;
+    font-size: 13px;
+    transition: opacity .2s ease;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    &_size-small {
+        font-size: 11px;
+    }
+
+    &_color-red {
+        color: var(--color-red);
+    }
+}

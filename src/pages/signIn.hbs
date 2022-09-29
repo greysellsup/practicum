@@ -1,0 +1,27 @@
+---
+pageTitle: Страница входа
+---
+
+{{!< general}}
+
+<form>
+    <div class="block block_shadow">
+        <div class="block__top">
+            <h4 class="block__title">Вход</h4>
+        </div>
+        <div class="block__middle">
+            <div class="block__row block__row_m-b">
+                {{> "input/input" type="text" name="login" nameRus="Логин" required="required" pattern="[A-Za-z0-9_]{1,15}"}}
+            </div>
+            <div class="block__row block__row_m-b">
+                {{> "input/input" type="password" name="password" nameRus="Пароль" required="required" pattern="\S+.*"}}
+            </div>
+        </div>
+        <div class="block__bottom block__bottom_center">
+            <div class="block__button">
+                {{> "button/button" text="Вход"}}
+            </div>
+            {{> "link/link" modifier="link_size-small" url="./signUp.hbs" text="Нет аккаунта?"}}
+        </div>
+    </div>
+ </form>

@@ -1,0 +1,11 @@
+:root {
+    --spacing-unit: 8px;
+    
+    --color-blue: #3369F3;
+    --color-blue-light: #E4EDFD;
+    --color-dark: #1e1e1e;
+    --color-grey: #999999;
+    --color-grey-light: #EAEAEA;
+    --color-white: #ffffff;
+    --color-red: #ff2f2f;
+}

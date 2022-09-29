@@ -1,0 +1,30 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: var(--color-white);
+    box-shadow: var(--color-blue) 0px 0px 0px 1px;
+    font-size: 13px;
+    border: 0;
+    background-color: var(--color-blue);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    transition: opacity .2s ease;
+
+    &_width-auto {
+        width: auto;
+        padding-left: calc(9 * var(--spacing-unit));
+        padding-right: calc(9 * var(--spacing-unit));
+    }
+
+    &:hover {
+    opacity: .8;
+}
+
+    &:active {
+        opacity: .9;
+    }
+}

@@ -1,0 +1,47 @@
+---
+pageTitle: Профиль
+---
+
+{{!< general}}
+<a href="./index.hbs" class="back-control"></a>
+<form class="form">
+    <div class="block">
+        <div class="block__top">
+            <div class="profile">
+                {{> "avatar/avatar" url="./avatar.hbs"}}
+                <div class="profile__name">Сергей</div>
+            </div>
+        </div>
+        <div class="block__middle">
+            <div class="block__row block__row_border-grey">
+                {{> "input/input" modifier="input_profile" type="text" name="email" nameRus="Почта" required="required" readonly="readonly" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"}}
+            </div>
+            <div class="block__row block__row_border-grey">
+                {{> "input/input" modifier="input_profile" type="text" name="login" nameRus="Логин" required="required" readonly="readonly" pattern="[A-Za-z0-9_]{1,15}"}}
+            </div>
+            <div class="block__row block__row_border-grey">
+                {{> "input/input" modifier="input_profile" type="text" name="first_name" nameRus="Имя" required="required" readonly="readonly" pattern="[A-Za-z]{1,20}"}}
+            </div>
+            <div class="block__row block__row_border-grey">
+                {{> "input/input" modifier="input_profile" type="text" name="second_name" nameRus="Фамилия" required="required" readonly="readonly" pattern="[A-Za-z]{1,20}"}}
+            </div>
+            <div class="block__row block__row_border-grey">
+                {{> "input/input" modifier="input_profile" type="text" name="display_name" nameRus="Имя в чате" required="required" readonly="readonly" pattern="[A-Za-z]{1,20}"}}
+            </div>
+            <div class="block__row">
+                {{> "input/input" modifier="input_profile" type="text" name="phone" nameRus="Телефон" required="required" readonly="readonly" }}
+            </div>
+        </div>
+        <div class="block__bottom">
+            <div class="block__row block__row_border-grey block__row_p-h">
+                {{> "link/link" url="./profileEdite.hbs" text="Изменить данные"}}
+            </div>
+            <div class="block__row block__row_border-grey block__row_p-h">
+                {{> "link/link" url="./passwordEdite.hbs" text="Изменить парль"}}
+            </div>
+            <div class="block__row block__row_p-h">
+                {{> "link/link" modifier="link_color-red" url="./index.hbs" text="Выйти"}}
+            </div>
+        </div>
+    </div>
+ </form>

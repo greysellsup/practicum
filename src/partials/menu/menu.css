@@ -1,0 +1,26 @@
+.menu {
+    text-align: center;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+
+    .menu__item {
+        list-style: none;
+        width: 100%;
+        white-space: nowrap;
+
+        .link {
+            font-size: 10px;
+            padding: var(--spacing-unit);
+            display: block;
+
+            &:hover {
+                background-color: var(--color-blue-light);
+            }
+        }
+    }  
+}

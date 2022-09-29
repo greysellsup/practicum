@@ -1,0 +1,14 @@
+.error {
+    color: var(--color-grey);
+    text-align: center;
+}
+
+.error__title {
+    font-size: 40px;
+    margin-bottom: calc(3 * var(--spacing-unit));
+}
+
+.error__desc {
+    font-size: 20px;
+    margin-bottom: calc(13 * var(--spacing-unit));
+}
