@@ -14,7 +14,7 @@
 body {
     font-family: 'Inter', sans-serif;
 }
-main {
+.default-container {
     display: flex;
     align-items: center;
     justify-content: center;

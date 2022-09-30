@@ -1,20 +1,20 @@
 ![Logo](http://dl3.joxi.net/drive/2022/09/30/0000/2738/10930/30/940ff12203.jpg)
 # Проект "Practicum Messenger"
 
-## Описание:
+## Описание
 Создание SPA приложения чата в рамках обучения Яндекс Парктикума.
 
 Figma - [https://www.figma.com/file/zhEzNik30wlPvYxyMTvLYW/Chat_external_link_grsl_edited?node-id=1%3A600](https://www.figma.com/file/zhEzNik30wlPvYxyMTvLYW/Chat_external_link_grsl_edited?node-id=1%3A600)
 
 Netlify - [https://stellar-tanuki-cbea4f.netlify.app/](https://stellar-tanuki-cbea4f.netlify.app/)
 
-## Спринты:
+## Спринты
 - [x] Спринт 1
 - [ ] Спринт 2
 - [ ] Спринт 3
 - [ ] Спринт 4
 
-## Испльзуемые технологии:
+## Испльзуемые технологии
 - [x] JavaScript, TypeScript 
 - [x] PostCSS
 - [x] Netlify
@@ -25,3 +25,28 @@ Netlify - [https://stellar-tanuki-cbea4f.netlify.app/](https://stellar-tanuki-cb
 - [ ] Docker
 - [ ] ESlint, Stylelint
 - [ ] Chai, Mocha, Jest
+
+## Установка и запуск
+1. Скопируй проект
+
+```bash
+  git clone -b sprint_1 https://github.com/greysellsup/practicum-module_1.git
+```
+
+2. Перейдите в папку с репозиторием
+
+```bash
+  cd practicum-module_1
+```
+
+3. Установите зависимости
+
+```bash
+  npm install
+```
+
+4. Запускай!
+
+```bash
+  npm run start
+```
