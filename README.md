@@ -33,13 +33,13 @@ Netlify - [https://stellar-tanuki-cbea4f.netlify.app/](https://stellar-tanuki-cb
   git clone -b sprint_1 https://github.com/greysellsup/practicum-module_1.git
 ```
 
-2. Перейдите в папку с репозиторием :feet:
+2. Перейди в папку с репозиторием :feet:
 
 ```bash
   cd practicum-module_1
 ```
 
-3. Установите зависимости :scream:
+3. Установи зависимости :scream:
 
 ```bash
   npm install
