@@ -27,25 +27,25 @@ Netlify - [https://stellar-tanuki-cbea4f.netlify.app/](https://stellar-tanuki-cb
 - [ ] Chai, Mocha, Jest
 
 ## Установка и запуск
-1. Скопируй проект
+1. Скопируй проект :memo:
 
 ```bash
   git clone -b sprint_1 https://github.com/greysellsup/practicum-module_1.git
 ```
 
-2. Перейдите в папку с репозиторием:feet:
+2. Перейдите в папку с репозиторием :feet:
 
 ```bash
   cd practicum-module_1
 ```
 
-3. Установите зависимости
+3. Установите зависимости :scream:
 
 ```bash
   npm install
 ```
 
-4. Запускай!
+4. Запускай! :rocket:
 
 ```bash
   npm run start
